@@ -1,6 +1,8 @@
 <?php
 session_start(); // Starting Session
-$error=''; // Variable To Store Error Message
+$error2=''; // Variable To Store Error Message
+$error1=''; // Variable To Store Error Message
+$error3=''; // Variable To Store Error Message
  if (isset($_POST["btn_login"])){
 		// Define $username and $password
 		$username=$_POST['email'];
@@ -9,7 +11,7 @@ $error=''; // Variable To Store Error Message
 		echo "Name".$username;
 		echo "Password".$password;
 
-		$servername = "localhost";
+		$servername = "localhost11";
         $username = "root";
         $password = "root@123";
 		$dbname = "orphanage";
